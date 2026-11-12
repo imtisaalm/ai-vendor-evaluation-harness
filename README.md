@@ -2,6 +2,12 @@
 
 A small Python and SQLite tool for scoring AI vendors and keeping a record of pilots. You score each vendor on five criteria, and the tool keeps the scores in a database and ranks vendors on a weighted total. The three example vendors are made up.
 
+## What decision this supports
+
+Choosing an AI vendor is a decision, not a demo. This tool turns it into a repeatable one: define the use case, set the criteria and their weights, run each vendor through the same pilot scenarios, and record the scores in one place. The output is a weighted ranking plus a pilot record, so the recommendation rests on measured performance rather than a sales call.
+
+The loop is the same one an implementation team uses for any third-party platform: define the decision, establish what good looks like, build a controlled test, measure quality, latency, cost, and failure modes, and produce a recommendation to scale, iterate, or stop. The skills it shows are vendor evaluation, pilot design, weighted scoring, and decision documentation.
+
 ## How to run
 
 Python 3.10 or later. No third-party packages.
