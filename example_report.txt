@@ -1,0 +1,4 @@
+Vendor           Runs  Weighted / 5
+Cedar               1         4.110
+Harbor              1         4.035
+Northstar           1         3.995
